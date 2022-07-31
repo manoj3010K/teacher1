@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+
+}
+body{
+	background-color: yellowgreen;
+}
+
+#school{
+	background-color: limegreen;
+	color: floralwhite;
+}
+
+body{
+	min-height: 100vh;
+}
+.side-menu{
+	position: fixed;
+	background: teal;
+	width: 17vw;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.side-menu .brand-name{
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.side-menu li{
+	padding: 10px;
+	font-size: 10px 40px;
+	color: flex;
+	align-items: center;
+}
+.side-menu li:hover{
+	background-color:gray ;
+	color: whitesmoke;
+}
+a{
+	text-decoration: none;
+	color: lightcyan;
+}
